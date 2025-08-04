@@ -38,7 +38,9 @@ body {
 li {
   margin: 15px;
 }
-
+li:hover {
+  border-bottom: 2px solid black;
+}
 li > a {
   text-decoration: none;
   color: black;
@@ -53,4 +55,63 @@ li > a {
   color: #fff;
   border-radius: 20px;
   margin-left: 35px;
+}
+
+.first-section {
+  max-height: 760px;
+
+  height: 760px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.first-text,
+.first-img {
+  width: 50%;
+  height: 80%;
+}
+
+.first-img {
+}
+
+.first-img > img {
+  max-width: 100%;
+}
+
+.first-text {
+  padding: 120px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.first-text > h1 {
+  font-size: 100px;
+  font-weight: 400;
+  text-shadow: 0.5px 3px #fedb65;
+}
+
+.first-text > p {
+  font-size: 30px;
+  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.37);
+}
+
+.all-button {
+  height: 50px;
+  width: 200px;
+  color: #fff;
+  background-color: #000000;
+  border: 1px;
+  border-radius: 30px;
+  font-size: 25px;
+  padding: 10px 30px;
+  font-weight: 500;
+}
+.all-button:hover {
+  background-color: #00000000;
+  color: #000000;
+  border: 1px solid black;
+  font-weight: 500;
 }
