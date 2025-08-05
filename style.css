@@ -20,6 +20,7 @@ body {
     #09282f
   );
   margin: 30px 50px;
+  overflow: scroll;
 }
 .navbar {
   display: flex;
@@ -111,4 +112,61 @@ li > a {
   color: #000000;
   border: 1px solid black;
   font-weight: 500;
+}
+
+.tach-lane-section {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  max-height: 236px;
+  width: 80%;
+  margin: auto;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.tach-lane-container {
+  /* border: 1px solid black; */
+  /* padding: 10px; */
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.tach-lane-container > h2 {
+  font-size: 60px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(0, 0, 0, 1) 65%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.tach-lane-images {
+  /* border: 1px solid green; */
+}
+
+.tach-lane-images {
+  /* border: 1px solid pink; */
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.box {
+  /* border: 1px solid blue; */
+  width: 100px;
+  height: 90px;
+  border-radius: 20px;
+  background-color: #fff;
+}
+.box:hover {
+  box-shadow: 10px 10px 47px 14px rgba(0, 0, 0, 0.59);
+  -webkit-box-shadow: 10px 10px 47px 14px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: 10px 10px 47px 14px rgba(0, 0, 0, 0.59);
+}
+
+.box > img {
+  width: 100%;
+  padding: 10px;
+  margin: auto;
 }
