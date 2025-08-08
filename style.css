@@ -3,10 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* 
+background-image: linear-gradient(to right, #ff7e5f, #feb47b); /* Direction and color stops */
+/* min-height: 100vh; Ensures the gradient covers the full viewport height */
+/* margin: 0; Removes default body margin */
 
 body {
-  height: 100vh;
-
+  min-height: 100vh;
   background-image: linear-gradient(
     #d2fbfb,
     #abf5f6,
@@ -125,7 +128,7 @@ li > a {
   gap: 20px;
 }
 
-.tach-lane-container {
+.t ach-lane-container {
   /* border: 1px solid black; */
   /* padding: 10px; */
   display: flex;
@@ -147,10 +150,15 @@ li > a {
 }
 
 .tach-lane-images {
-  /* border: 1px solid pink; */
   display: flex;
   justify-content: center;
   justify-content: space-evenly;
+
+  background-color: #00000069;
+  border-radius: 35px;
+  max-width: 1135px;
+  padding: 10px;
+  box-shadow: 12px 12px 2px 1px #00000038;
 }
 .box {
   /* border: 1px solid blue; */
@@ -169,4 +177,69 @@ li > a {
   width: 100%;
   padding: 10px;
   margin: auto;
+}
+
+.tech-overview-section {
+  /* border: 1px solid red; */
+  width: 790px;
+  height: 300px;
+  margin: 50px;
+  font-size: 50px;
+  font-family: "Aboreto", system-ui;
+  font-weight: 300;
+  padding: 20px;
+  text-align: center;
+}
+.button_2 {
+  height: 40px;
+  width: 200px;
+  color: #fff;
+  background-color: #000000;
+  font-size: 35px;
+  border-radius: 20px;
+  border: none;
+  text-align: center;
+  padding: 20pxs;
+  width: 500;
+  margin-top: 30px;
+}
+.button_2:hover {
+  background-color: #00000000;
+  color: #000000;
+  border: 1px solid black;
+  font-weight: 500;
+}
+
+.servise-section {
+  /* border: 1px solid red; */
+  height: auto;
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.service-img {
+  /* border: 1px solid green; */
+}
+.service-features {
+  /* border: 1px solid blue; */
+  max-width: 100%;
+}
+.servise-card {
+  /* border: 1px solid red; */
+  display: flex;
+}
+
+.servise-details {
+  padding: 10px;
+  margin-right: 40px;
+}
+.servise-details > h3 {
+  font-size: 40px;
+}
+.number-para {
+  font-size: 40px;
+  width: 300;
+}
+.about-card {
+  font-size: 20px;
 }
