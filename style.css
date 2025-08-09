@@ -227,6 +227,7 @@ li > a {
 .servise-card {
   /* border: 1px solid red; */
   display: flex;
+  margin-bottom: 40px;
 }
 
 .servise-details {
@@ -242,4 +243,45 @@ li > a {
 }
 .about-card {
   font-size: 20px;
+}
+
+.footer-section {
+  border: 1px solid red;
+  padding: 10px;
+}
+
+.contac-us {
+  border: 1px solid blue;
+  max-width: 85%;
+  margin: auto;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.contac-us > p {
+  font-size: 60px;
+  text-align: center;
+  width: 100;
+  margin-bottom: 20px;
+}
+
+.contac-button {
+  height: 50px;
+  width: 200px;
+  color: #fff;
+  background-color: #000000;
+  border: 1px;
+  border-radius: 30px;
+  font-size: 25px;
+  padding: 10px 30px;
+  font-weight: 500;
+  margin: auto;
+}
+.contac-button:hover {
+  background-color: #00000000;
+  color: #000000;
+  border: 1px solid black;
+  font-weight: 500;
 }
