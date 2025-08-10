@@ -298,3 +298,33 @@ li > a {
   background-color: #14bec6a3;
   border-radius: 25px;
 }
+
+.footer-info {
+  border: 1px solid black;
+  max-width: 500px;
+}
+.footer-info img,
+p {
+  padding: 10px;
+}
+.footer-servise-section {
+  border: 1px solid green;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.footer-cards {
+  border: 1px solid deeppink;
+  display: flex;
+  flex-grow: auto;
+}
+.servise-card {
+  border: 1px solid salmon;
+}
+
+/* Servise card section only H4 tag */
+
+h4 {
+  padding: 10px;
+}
